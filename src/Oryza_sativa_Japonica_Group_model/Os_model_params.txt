@@ -1,0 +1,1 @@
+{'learning_rate': 0.1, 'n_estimators': 230, 'max_depth': 7, 'min_child_weight': 1, 'gamma': 0.2, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.005, 'objective': 'binary:logistic', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 30}
