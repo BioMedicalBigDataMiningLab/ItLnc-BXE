@@ -1,6 +1,6 @@
 # ItLnc-BXE
 
-This computational tool is designed for plant long non-coding RNA prediction, and namely ItLnc-BXE ( 'Identification of plant lncRNAs using a Bagging-XGBoost-ensemble method with multiple features').
+This computational tool is designed for plant long non-coding RNA identification, and namely ItLnc-BXE ( 'Identification of plant lncRNAs using a Bagging-XGBoost-ensemble method with multiple features').
 
 Datasets and tools we used are available at: https://pan.baidu.com/s/1M3zAve936BBbReoaFL8ZEQ
 
