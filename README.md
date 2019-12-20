@@ -1,6 +1,6 @@
-# PtLnc-BXE
+# ItLnc-BXE
 
-This computational tool is designed for plant long non-coding RNA prediction, and namely PtLnc-BXE ( 'Prediction of plant lncRNAs using a Bagging-XGBoost-ensemble method with multiple features').
+This computational tool is designed for plant long non-coding RNA prediction, and namely ItLnc-BXE ( 'Identification of plant lncRNAs using a Bagging-XGBoost-ensemble method with multiple features').
 
 Datasets and tools we used are available at: https://pan.baidu.com/s/1M3zAve936BBbReoaFL8ZEQ
 
@@ -8,13 +8,13 @@ Datasets and tools we used are available at: https://pan.baidu.com/s/1M3zAve936B
 
 1.To use this tool, clone this repository on your machine by:
 ```
-git clone https://github.com/BioMedicalBigDataMiningLab/PtLnc-BXE.git
+git clone https://github.com/BioMedicalBigDataMiningLab/ItLnc-BXE.git
 ```
 
 2.Download datasets and tools  
 2.1 Download '/data' and '/feamodule.zip' from given url  
-2.2 Unzip feamodule.zip to /PtLnc-BXE/src/feamodule/  
-2.3 Unzip /PtLnc-BXE/src/feamodule/blast.zip to /PtLnc-BXE/src/feamodule/blast
+2.2 Unzip feamodule.zip to /ItLnc-BXE/src/feamodule/  
+2.3 Unzip /ItLnc-BXE/src/feamodule/blast.zip to /ItLnc-BXE/src/feamodule/blast
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ To use this tool you will need:
 
 Run:
 ```
-python3 PtLnc-BXE.py -i input.fa -m a -o result
+python3 ItLnc-BXE.py -i input.fa -m a -o result
 ```
 
 Model selection `-m` :  
