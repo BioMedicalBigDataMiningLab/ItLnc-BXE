@@ -54,7 +54,7 @@ model_reference={'a':['./Arabidopsis_thaliana_model/',
 
 
 def main():
-    parser = argparse.ArgumentParser(description='PtLnc-BXE: Prediction 0f plant lncRNA by using a Bagging-XGBoost-ensemble method with multiple features')
+    parser = argparse.ArgumentParser(description='ItLnc-BXE: Prediction 0f plant lncRNA by using a Bagging-XGBoost-ensemble method with multiple features')
 
     parser.add_argument('-i','--input',dest="input",type=str,help="input sequence in fasta format(required)")
     parser.add_argument('-m','--model',dest="model",type=str,help="use [a](Arabidopsis_thaliana) or [c](Chlamydomonas_reinhardtii) or [h](Hordeum_vulgare) or [o](Oryza_sativa_Japonica_Group) or [p](Physcomitrella_patens) or [s](Solanum_tuberosum) model")
